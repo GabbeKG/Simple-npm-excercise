@@ -1,0 +1,19 @@
+{
+  "name": "simple-npm-excercise",
+  "version": "1.0.0",
+  "description": "School project in npm and deploying",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabbeKG/Simple-npm-excercise.git"
+  },
+  "author": "Gabriel Karlsson Gonzalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabbeKG/Simple-npm-excercise/issues"
+  },
+  "homepage": "https://github.com/GabbeKG/Simple-npm-excercise#readme"
+}
