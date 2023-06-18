@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <script type="module" src="./script.js" defer></script>
   </head>
   <body>
     <h1>My first Netlify Deployment!</h1>
@@ -11,12 +12,13 @@
       <label class="name-label" for="name">Dirty number</label>
       <input
         type="text"
-        id="num"
-        placeholder="Enter wierd formatted number here"
+        id="only-num"
+        class="only-num"
+        placeholder="Enter weird formatted number here"
         required
       />
-      <label class="name-label" for="name">formatted</label>
-      <input id="myBtn" type="button" onclick="str()" value="Submit" />
+      <label class="name-label" for="name">Formatted</label>
+      <input id="myBtn" type="button" value="Submit" />
     </form>
   </body>
 </html>
