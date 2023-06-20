@@ -1,10 +1,10 @@
 // @ts-nocheck
 
-// Import the necessary functions or objects from your package
-import { addEnterKeyListener, str } from "only-numbers-gabbekg";
+// Import the necessary functions from your package
+const { addEnterKeyListener, str } = require("only-numbers-gabbekg");
+
+// Use the imported functions in your project
 addEnterKeyListener();
 
-// Use the imported function or object in your project
-//str();
 const btn = document.getElementById("myBtn");
 btn.addEventListener("click", str);
