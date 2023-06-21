@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <!--
     <script type="module" src="./script.js" defer></script>
+  -->
+    <script type="module" src="/dist/bundle.js" defer></script>
   </head>
   <body>
     <h1>My first Netlify Deployment!</h1>
@@ -12,7 +15,7 @@
       <label class="name-label" for="name">Dirty number</label>
       <input
         type="text"
-        id="only-num"
+        id="num"
         class="only-num"
         placeholder="Enter weird formatted number here"
         required
@@ -20,6 +23,5 @@
       <label class="name-label" for="name">Formatted</label>
       <input id="myBtn" type="button" value="Submit" />
     </form>
-    <script src="bundle.js" defer></script>
   </body>
 </html>
